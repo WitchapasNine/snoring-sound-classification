@@ -1,13 +1,13 @@
-🎙️ Automatic Snoring-Sound Classification (DES432 Statistics and Data Modeling project)
+## 🎙️ Automatic Snoring-Sound Classification (DES432 Statistics and Data Modeling project)
 
-📌 Overview  
+## 📌 Overview  
 This project builds a machine learning pipeline to classify **snore vs. non-snore** 1-second audio clips.  
 The system extracts **MFCC features** from raw audio and evaluates three traditional ML models: **Logistic Regression, k-Nearest Neighbors, and Support Vector Machine (SVM)**.  
 Performance is validated with **nested cross-validation** and confirmed with **statistical significance testing**.
 
 ---
 
-🚀 Features
+## 🚀 Features
 - **MFCC Feature Extraction**
   - 20 MFCCs per frame from 1-second audio clips.
   - Summarized with **global mean + standard deviation** → 40 features per clip.
@@ -23,7 +23,7 @@ Performance is validated with **nested cross-validation** and confirmed with **s
 
 ---
 
-📊 Results  
+## 📊 Results  
 Cross-validation results (public dataset, ~1,000 clips):
 
 | Model   | Accuracy | Sensitivity | Specificity | AUC ± SE     |
@@ -37,19 +37,25 @@ Cross-validation results (public dataset, ~1,000 clips):
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 - **Language**: Python  
 - **Libraries**: NumPy, Pandas, Scikit-learn, Librosa, Matplotlib, tqdm, statsmodels  
 - **Data**: Public snore/non-snore WAV dataset (~1,000 clips, balanced)  
 
 ---
 
-👥 Team members
+## 👥 Team members
 6522790276 Kanapitch Khamjorn
+
 6522770765 Sukpat Wongtrakool
+
 6522772464 Kueakul Jongpermponwattana
+
 6522780780 Witchapas Chotichaiyon
+
 6522770799 Saharat Yuanthong
+
 6522790201 Potcharaphon Eaksil
+
 6722300255 Chia Jia Yi
 
